@@ -1,0 +1,76 @@
+body {
+  box-sizing: border-box;
+  padding: 20px;
+  margin: 0;
+  /*background-color: #4ca2ad;*/
+  background-image: linear-gradient(to bottom, #4ca2ad, lightblue);
+  color: white;
+  font-family: 'Cinzel', serif;
+}
+
+html {
+  min-height: 100%;
+}
+.title-container {
+  height: 150px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 48px;
+  font-family: 'Cinzel', serif;
+}
+
+.form-container {
+  height: 100px;
+  text-align: center;
+  font-family: 'Cinzel', serif;
+  font-size: 20px;
+}
+
+.forecast-container {
+  border: 1px outset #5d878c;
+  background-color: #3f8891;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.forecast {
+  width: 900px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+}
+
+.forecast-title {
+  font-family: 'Cinzel', serif;
+  font-size: 12px;
+  width: 300px;
+  height: 100px;
+}
+
+.temperature {
+  width: 300px;
+  height: 100px;
+}
+
+.image-class {
+  width: 100px;
+  height: 100px;
+}
+
+.whitespace {
+  height: 10px;
+}
+
+.current-container {
+  justify-content: center;
+  text-align: center;
+  font-size: 25px;
+  border: 1px outset #5d878c;
+  background-color: white;
+  color: grey;
+}
